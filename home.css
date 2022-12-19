@@ -1,0 +1,56 @@
+*{
+	padding: 0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing:border-box;
+}
+body{
+	font-family:serif;
+	background-image:url(../bground.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:100vh;
+}
+	div.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
+div.logo{
+	float:left;
+	color:orange;
+	font-size:40px;
+	line-height:80px;
+	font-weight: bold;
+	padding:10px;
+}
+nav ul{
+	float: left;
+  display: block;
+  padding: 30px;
+  padding-left:50px;
+
+}
+nav ul li{
+	display:inline;
+	padding:2px ;
+	align-items: center;
+	line-height: 80px;
+	margin:10px;
+	border-right: 2px solid white;
+	font-size:20px;
+	text-transform:uppercase; 
+}
+nav ul li a{
+	border: 2px;
+	color:orange;
+}
+a.active,a:hover{
+	background:white;
+ transition: .5s;
+}
+
